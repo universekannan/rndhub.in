@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Free Style A Ecommerce Category Flat Bootstarp Resposive Website Template | Home :: w3layouts</title>
+<title>Free Style A Ecommerce Category Flat Bootstarp Resposive Website Template | Products :: w3layouts</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>
@@ -46,26 +46,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="top-header-main">
 			<div class="col-md-4 top-header-left">
-
+				<div class="search-bar">
+					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					<input type="submit" value="">
+				</div>
 			</div>
 			<div class="col-md-4 top-header-middle">
 				<a href="index.html"><img src="images/logo-4.png" alt="" /></a>
 			</div>
 			<div class="col-md-4 top-header-right">
-			
+				<div class="cart box_1">
+						<a href="checkout.html">
+						<h3> <div class="total">
+							<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
+							<img src="images/cart-1.png" alt="" />
+						</a>
+						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+						<div class="clearfix"> </div>
+					</div>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
 </div>
 <!--top-header-->
-	<!--bottom-header-->
+<!--bottom-header-->
 	<div class="header-bottom">
 		<div class="container">
 			<div class="top-nav">
 				<ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
-					
-					
 					<li class="grid"><a href="#">About Us</a></li>
 					<li class="grid"><a href="cradle.html">Cradle</a></li>
 					<li class="grid"><a href="swing.html">Swing</a></li>	
@@ -78,213 +87,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!--bottom-header-->
-	<!--banner-starts-->
-	<div class="bnr" id="home">
-		<div  id="top" class="callbacks_container">
-			<ul class="rslides" id="slider4">
-			    <li>
-					<div class="banner-1"></div>
-				</li>
-				<li>
-					<div class="banner-2"></div>
-				</li>
-				<li>
-					<div class="banner-3"></div>
-				</li>
-			</ul>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-	<!--banner-ends--> 
-	<!--Slider-Starts-Here-->
-				<script src="js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider4").responsiveSlides({
-			        auto: true,
-			        pager: true,
-			        nav: false,
-			        speed: 500,
-			        namespace: "callbacks",
-			        before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			
-			    });
-			  </script>
-			<!--End-slider-script-->
-	<!--start-banner-bottom--> 
-	<div class="banner-bottom">
+	<!--start-breadcrumbs-->
+	<div class="breadcrumbs">
 		<div class="container">
-			<div class="banner-bottom-top">
-				<div class="col-md-6 banner-bottom-left">
-					<div class="bnr-one">
-						<div class="bnr-left">
-							<h1><a href="single.html">Bamboo Chair</a></h1>
-						
-							<div class="b-btn"> 
-								<a href="single.html">SHOP NOW</a>
-							</div>
-						</div>
-						<div class="bnr-right"> 
-							<a href="single.html"><img src="images/chair2.jpg" alt="" /></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-6 banner-bottom-right">
-					<div class="bnr-two">
-						<div class="bnr-left">
-							<h2><a href="single.html">Bamboo Chair</a></h2>
-							
-							<div class="b-btn"> 
-								<a href="single.html">SHOP NOW</a>
-							</div>
-						</div>
-						<div class="bnr-right"> 
-							<a href="single.html"><img src="images/chair.jpg" alt="" /></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
+			<div class="breadcrumbs-main">
+				<ol class="breadcrumb">
+					<li><a href="index.html">Home</a></li>
+					<li class="active">New Products</li>
+				</ol>
 			</div>
 		</div>
 	</div>
-	<!--end-banner-bottom--> 
-	<!--start-shoes--> 
-	<div class="shoes"> 
-		<div class="container"> 
-			<div class="product-one">
-				<div class="col-md-3 product-left"> 
-					<div class="p-one simpleCart_shelfItem">							
-							<a href="bamboochair.html">
-								<img src="images/12.jpg" alt="" />
-								<div class="mask">
-									<span>Quick View</span>
-								</div>
-							</a>
-						<h4>Bamboo Chair</h4>
-						<p><a class="item_add" href="#"><i></i> <span class=" item_price">₹12000.00</span></a></p>
-					
-					</div>
-				</div>
-				<div class="col-md-3 product-left"> 
-					<div class="p-one simpleCart_shelfItem">
-						
-						<a href="single.html">
-								<img src="images/13.jpg" alt="" />
-								<div class="mask">
-									<span>Quick View</span>
-								</div>
-							</a>
-						<h4>Bamboo Sofa Set</h4>
-						<p><a class="item_add" href="#"><i></i> <span class=" item_price">
-							₹20000.00</span></a></p>
-						
-					</div>
-				</div>
-				<div class="col-md-3 product-left"> 
-					<div class="p-one simpleCart_shelfItem">
-						
-						<a href="bamboochair.html">
-								<img src="images/14.jpg" alt="" />
-								<div class="mask">
-									<span>Quick View</span>
-								</div>
-							</a>
-						<h4>Bamboo Chair</h4>
-						<p><a class="item_add" href="#"><i></i> <span class=" item_price">₹12000.00</span></a></p>
-						
-					</div>
-				</div>
-				<div class="col-md-3 product-left"> 
-					<div class="p-one simpleCart_shelfItem">
-						
-						<a href="single.html">
-								<img src="images/15.jpg" alt="" />
-								<div class="mask">
-									<span>Quick View</span>
-								</div>
-							</a>
-						<h4>Bamboo Swing</h4>
-						<p><a class="item_add" href="#"><i></i> <span class=" item_price">
-							₹15000.00</span></a></p>
-						
-					</div>
-				</div>
+	<!--end-breadcrumbs-->
+	<!--start-product--> 
+	<div class="product">
+		<div class="container">
+			<div class="product-main">
+			<div class="col-md-12 p-left">
+				<div class="product-one">
+				
+				
+			 
 				<div class="clearfix"> </div>
 			</div>
-			<div class="product-one">
-				<div class="col-md-3 product-left"> 
-					<div class="p-one simpleCart_shelfItem">
-						
-						<a href="bamboochair.html">
-								<img src="images/16.jpg" alt="" />
-								<div class="mask">
-									<span>Quick View</span>
-								</div>
-							</a>
-						<h4>Bamboo Chair</h4>
-						<p><a class="item_add" href="#"><i></i> <span class=" item_price">
-							₹12000.00</span></a></p>
-						
-					</div>
-				</div>
-				<div class="col-md-3 product-left"> 
-					<div class="p-one simpleCart_shelfItem">
-						
-						<a href="bamboochair.html">
-								<img src="images/17.jpg" alt="" />
-								<div class="mask">
-									<span>Quick View</span>
-								</div>
-							</a>
-						<h4>Bamboo Chair</h4>
-						<p><a class="item_add" href="#"><i></i> <span class=" item_price">
-							₹12000.00</span></a></p>
-						
-					</div>
-				</div>
-				<div class="col-md-3 product-left"> 
-					<div class="p-one simpleCart_shelfItem">
-						
-						<a href="bamboochair.html">
-								<img src="images/13.jpg" alt="" />
-								<div class="mask">
-									<span>Quick View</span>
-								</div>
-							</a>
-						<h4>Bamboo Chair</h4>
-						<p><a class="item_add" href="#"><i></i> <span class=" item_price">₹12000.00</span></a></p>
-						
-					</div>
-				</div>
-				<div class="col-md-3 product-left"> 
-					<div class="p-one simpleCart_shelfItem">
-						
-						<a href="single.html">
-								<img src="images/12.jpg" alt="" />
-								<div class="mask">
-									<span>Quick View</span>
-								</div>
-							</a>
-						<h4>Bamboo Chair</h4>
-						<p><a class="item_add" href="#"><i></i> <span class=" item_price">₹12000.00</span></a></p>
-						
-					</div>
-				</div>
-				<div class="clearfix"> </div>
 			</div>
+			
+			<div class="clearfix"> </div>
 		</div>
 	</div>
-	<!--end-shoes-->
+	</div>
+	<!--end-product-->
 	<!--start-footer-->
 	<div class="footer">
 		<div class="container">
