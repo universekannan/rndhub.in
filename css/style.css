@@ -919,8 +919,8 @@ ul.size li a:hover {
 .single-but input[type="submit"] {
 	background: #8c2830;
 	color: #FFF;
-	font-size: 0.8em;
-	padding: 0.5em 1em;
+	font-size: 1em;
+	padding:1em 2em;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
